@@ -32,8 +32,7 @@ function App() {
     <div className="App">
       <div style={{ width: "30%", margin: "10px auto" }}>
         <FacebookLogin
-          appId="1130801967564615"
-          // appId="635693378008899"
+          appId="Your app Id"
           autoLoad={true}
           fields="name,email,picture"
           // onClick={componentClicked}
@@ -44,9 +43,8 @@ function App() {
 
         {/* ============= Facebook Login ============= */}
         <LoginSocialFacebook
-          appId="1130801967564615"
-          // client_id={"1130801967564615"}
-          client_secret={"f3594b8ac754f7b0f67394caf2f350a4"}
+          appId="Your app id"
+          client_secret={"Your client secret"}
           redirect_uri={REDIRECT_URI}
           // scope="openid profile email"
           // discoveryDocs="claims_support"
@@ -62,8 +60,8 @@ function App() {
 
         {/* ============= Linkedin Login ============= */}
         <LoginSocialLinkedin
-          client_id={"865ylyti6k7v8w"}
-          client_secret={"3SfpgeCKsjdueZHx"}
+          client_id={"Your client id"}
+          client_secret={"Your client secret"}
           redirect_uri={REDIRECT_URI}
           // scope="openid profile email"
           // discoveryDocs="claims_support"
